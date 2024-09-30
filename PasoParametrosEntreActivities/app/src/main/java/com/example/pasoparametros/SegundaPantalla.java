@@ -8,13 +8,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SegundaPantalla extends AppCompatActivity {
 
-    private TextView txtUser;
+    private TextView txtUsuario;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
 
-        txtUser= findViewById(R.id.textUserPantalla2);
+        txtUsuario= (TextView)findViewById(R.id.textUserPantalla2);
+
+        Bundle variables = getIntent().getExtras();
+        String user = variables.getString("USUARIO");
+
+        txtUsuario.setText(user);
 
     }
 
