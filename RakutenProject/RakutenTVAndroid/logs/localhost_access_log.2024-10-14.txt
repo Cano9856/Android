@@ -1,0 +1,11 @@
+192.168.104.74 - - [14/Oct/2024:08:47:36 +0200] "POST /RakutenTVAndroid/Controller HTTP/1.1" 404 718
+192.168.104.74 - - [14/Oct/2024:08:48:00 +0200] "POST /RakutenTVAndroid/Controller HTTP/1.1" 404 718
+0:0:0:0:0:0:0:1 - - [14/Oct/2024:08:48:06 +0200] "GET /RakutenTVAndroid HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Oct/2024:08:48:07 +0200] "GET /RakutenTVAndroid/ HTTP/1.1" 200 218
+0:0:0:0:0:0:0:1 - - [14/Oct/2024:08:48:07 +0200] "GET /favicon.ico HTTP/1.1" 404 610
+192.168.104.74 - - [14/Oct/2024:08:48:30 +0200] "GET /RakutenTVAndroid/Controller?ACTION=USUARIO.LOGIN HTTP/1.1" 404 718
+0:0:0:0:0:0:0:1 - - [14/Oct/2024:08:52:08 +0200] "GET /RakutenTVAndroid HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Oct/2024:08:52:09 +0200] "GET /RakutenTVAndroid/ HTTP/1.1" 200 218
+192.168.104.74 - - [14/Oct/2024:08:59:10 +0200] "GET /RakutenTVAndroid/Controller?ACTION=USUARIO.LOGIN HTTP/1.1" 404 718
+0:0:0:0:0:0:0:1 - - [14/Oct/2024:08:59:32 +0200] "GET /RakutenTVAndroid/Controller?ACTION=USUARIO.LOGIN HTTP/1.1" 404 718
+0:0:0:0:0:0:0:1 - - [14/Oct/2024:09:01:07 +0200] "GET /RakutenTVAndroid/Controller?ACTION=USUARIO.LOGIN HTTP/1.1" 404 718
